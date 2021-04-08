@@ -5,9 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/Logo.png" type="image/x-icon">
     <title>infnty</title>
+    
+  
 </head>
+
 <body>
+    <div id='animation'>
+
+    </div>
+    <script src="lottie.js"></script>
+    <script src="animescript.js"></script>
     <header>
         <nav>
             <div class="row">
@@ -16,8 +25,8 @@
                 <ul class="main-nav js--main-nav">
                     <li><a href="#who">Who?</a></li>
                     <li><a href="#us">Us</a></li>
-                    <li><a href="#cities">What?</a></li>
-                    <li><a href="#plans">How?</a></li>
+                    <li><a href="#what">What?</a></li>
+                    <li><a href="#how">How?</a></li>
                 </ul>                
             </div>
         </nav>
@@ -40,8 +49,8 @@
             <p style="text-align: justify;text-justify:inter-word;margin-top:100px; margin-top: 231px;margin-left: 150px;margin-right: 150px;"> 
                 We are trying to put together a team of superheroes……errrrrr. Ok let’s start again, we are a team with meta humans, monks, cyborgs, techies and inter dimensional travellers. Hard to believe? Yeah yeah these all are characters in valorant and our team is currently playing it. We have great players from csgo, Ranibow 6 and pubg. You can also be one of us. We will play grow and enjoy together. reach us out on social media platforms linked below.
             </p>
-            <a class="btn btn-ghost js--scroll-to-start" style="margin-left:150px;margin-right:20px; margin-top:80px;" href="https://discord.com/invite/ZCUWD8" target="_blank">discord</a>
-            <a class="btn btn-ghost js--scroll-to-start" style="margin-top:50px;margin-right:20px;" href="" target="_blank">twitch</a>
+            <a class="btn btn-ghost js--scroll-to-start" style="margin-left:150px;margin-right:20px; margin-top:80px;" href="https://discord.gg/PWhUg2EfvR" target="_blank">discord</a>
+            <a class="btn btn-ghost js--scroll-to-start" style="margin-top:50px;margin-right:20px;" href="https://www.twitch.tv/tarzanhunts" target="_blank">twitch</a>
             <a class="btn btn-ghost js--scroll-to-start" style="margin-top:50px;margin-right:20px;" href="" target="_blank">instagram</a>
         </div>
         <div class="wrapper">
@@ -72,7 +81,7 @@
                 <img src="images/breach.png" class="valo">
             </div>
             <ul class="thumb"> 
-                <li><a href="#"><img src="images/breachthumb.png"  onclick="imgSlider('images/breach.png');  changePlayerDescription('Be it attack or defence he is first on the line. Thanos always tries to make everything perfectly balenced as they should be. always watch your backs when he is on field.'); changeCircleColor('#e67e22');changePlayerName('Thanos');return false;"></a></li>
+                <li><a href="#"><img src="images/breachthumb.png"  onclick="imgSlider('images/breach.png');  changePlayerDescription('Be it attack or defence he is first on the line. Thanos always try make everything perfectly balenced as they should be. always watch your backs when he is on field.'); changeCircleColor('#e67e22');changePlayerName('Thanos');return false;"></a></li>
                 <li><a href="#"><img src="images/reynathumb.png"   onclick="imgSlider('images/reyna.png');   changePlayerDescription('When you see a player and think they can\'t be more perfect, Legendary will prove you wrong. He is the one who thaught us the mechanics of the game. on any given day he will do the damage from where you\'d expected him the least.'); changeCircleColor('#800080');changePlayerName('Legendary');return false;"></a></li>
                 <li><a href="#"><img src="images/cypherthumb.png"  onclick="imgSlider('images/cypher.png');  changePlayerDescription('there should be one person to hold the site when everyone is hidding. Who would do it better than cypher ? breaks the enemies offence with box and one defence. will blocked at site entry and bang bang says mike bern.'); changeCircleColor('#8b4513');changePlayerName('ChillipiBalayya'); return false;"></a></li>
                 <li><a href="#"><img src="images/sovathumb.png"    onclick="imgSlider('images/sova.png');    changePlayerDescription('Avarage Jonas who ? We have JezzMVS. when you think you had that diffuse you\'re wrong. \'cause there is always a shock dart comming for you.'); changeCircleColor('#4169e1');changePlayerName('JezzMVS'); return false;"></a></li>
@@ -108,7 +117,7 @@
                 <source src="videos/razeult.mp4" type="video/mp4">
             </video>
             <video width="320" height="240" autoplay muted loop class="highlights2" style="margin-left: 924px; margin-top: 339px;position: absolute; ">
-                <source src="videos/razeult.mp4" type="video/mp4">
+                <source src="videos/razeult.mp4" type="video/mp4"> 
             </video>
 
         </div>
@@ -197,8 +206,12 @@
             document.getElementById("playerDescription").innerHTML=text;
 
         }
-        
+        function killAni(){
+
+        }
     </script> 
+    <!-- <script src="loading.js">
+    </script> -->
 </body>
 </html>
 
